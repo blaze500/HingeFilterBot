@@ -19,10 +19,10 @@ public class HingeBotFunctions {
     //Initiates Appium Driver
     public void appiumDriver() {
         UiAutomator2Options clientOptions = new UiAutomator2Options();
-        clientOptions.setCapability("deviceName", "moto g power (2021)");
-        clientOptions.setCapability("udid", "ZY22G29KR5");
-        clientOptions.setCapability("platformName", "Android");
-        clientOptions.setCapability("platformVersion", "11");
+        clientOptions.setCapability("deviceName", "");
+        clientOptions.setCapability("udid", "");
+        clientOptions.setCapability("platformName", "");
+        clientOptions.setCapability("platformVersion", "");
 
         clientOptions.setCapability("appPackage", "co.hinge.app");
         clientOptions.setCapability("appActivity", "co.hinge.app.ui.AppActivity");
